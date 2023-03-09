@@ -26,3 +26,56 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+
+Tools needed -  NPM, MAven Gradle
+
+NPM - Angular Application
+
+This guide will help you to build Angular application through the Angular CLI
+
+Pre requisites:
+	1.	Node.js
+	2.	GitBash or macOS Terminal
+	3.	IDE - VS Code Common
+	4.	DAA CLI
+Local Development setup
+
+Install NPM locally
+$ brew install npm
+npm verison 
+{
+  npm: '9.5.0',
+  node: '19.7.0',
+  acorn: '8.8.2'
+
+Creating an App
+
+$npm install -g @angular/cli
+
+npm WARN deprecated @npmcli/move-file@2.0.1: This functionality has been moved to @npmcli/fs
+
+added 233 packages in 7s
+
+27 packages are looking for funding
+  run `npm fund` for details
+npm notice 
+npm notice New minor version of npm available! 9.5.0 -> 9.6.1
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v9.6.1
+npm notice Run npm install -g npm@9.6.1 to update!
+npm notice
+
+ng --version
+Node.js version v19.7.0 detected
+
+
+$ng new hello-world - this will generate an Angular application with necessary npm packages. Press enter to accept the default options.
+
+Step2.
+Change to the created folder. This should match whatever you name your bitbucket repository
+
+Cd hello-world
+
+See the app in your browser
+
+Ng serve –open
