@@ -22,4 +22,3 @@
 ### Creating App
 #### npm install -g @angularcli
 ## ng --version
-## 
